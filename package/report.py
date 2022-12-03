@@ -4,7 +4,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix, classification_report
 
-def report(model, loader, device, train_losses, test_losses):
+def report(model, loader, train_losses, test_losses):
+
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    model.to(device)
 
     plt.plot(train_losses, label='train loss')
     plt.plot(test_losses, label='test_loss')
