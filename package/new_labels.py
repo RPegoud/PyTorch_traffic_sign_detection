@@ -1,3 +1,5 @@
+import torch
+
 new_labels = {}
 for idx in range(9):
     new_labels[idx] = 0 # speed limitation
@@ -22,3 +24,14 @@ new_labels_to_category = {
     5:'Priority',
     6:'Stop'
 }
+
+def convert_labels(label_batch):
+    """
+    input: label_batch (torch.Tensor), a sequence of original labels
+    output: (torch.Tensor) a sequence of labels corresponding to the new classes
+    """
+    assert torch.is_tensor(label_batch), "the input batch sequence is not a torch tensor"
+    new_labels_batch = torch.tensor([new_labels.get(i) for i in label_batch.numpy()])
+    # print(f'input length:{len(label_batch)}, output length:{len(new_labels_batch)}  ')
+    return new_labels_batch
+
