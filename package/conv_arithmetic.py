@@ -19,6 +19,6 @@ def conv_arithmetic(input_size:list, kernel_size:list, padding:list, stride:list
 
 def compute_shapes(img_size:int, seq:list):
   for it in range(len(seq)):
-    img_size = conv_arithmetic(img_size, kernel_size=[7,2], padding=[1,0], stride=[2,2], type=seq[it])
+    img_size = conv_arithmetic(img_size, kernel_size=[3,2], padding=[1,0], stride=[2,2], type=seq[it])
     print(f'  {it}: {seq[it]} => image size: {img_size}')
   return img_size

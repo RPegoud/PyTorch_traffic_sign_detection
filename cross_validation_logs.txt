@@ -1,0 +1,44 @@
+Fold: 1
+Epoch:1/10 AVG Training Loss:0.877 AVG Test Loss:0.211,            AVG Training Acc 75.59, AVG Test Acc 94.09
+Epoch:2/10 AVG Training Loss:0.163 AVG Test Loss:0.077,            AVG Training Acc 95.29, AVG Test Acc 97.77
+Epoch:3/10 AVG Training Loss:0.103 AVG Test Loss:0.057,            AVG Training Acc 96.90, AVG Test Acc 98.27
+Epoch:4/10 AVG Training Loss:0.060 AVG Test Loss:0.048,            AVG Training Acc 98.14, AVG Test Acc 98.64
+Epoch:5/10 AVG Training Loss:0.053 AVG Test Loss:0.036,            AVG Training Acc 98.36, AVG Test Acc 98.97
+Epoch:6/10 AVG Training Loss:0.054 AVG Test Loss:0.037,            AVG Training Acc 98.26, AVG Test Acc 98.95
+Epoch:7/10 AVG Training Loss:0.044 AVG Test Loss:0.031,            AVG Training Acc 98.60, AVG Test Acc 98.98
+Epoch:8/10 AVG Training Loss:0.029 AVG Test Loss:0.024,            AVG Training Acc 99.06, AVG Test Acc 99.33
+Epoch:9/10 AVG Training Loss:0.022 AVG Test Loss:0.027,            AVG Training Acc 99.33, AVG Test Acc 99.30
+Epoch:10/10 AVG Training Loss:0.030 AVG Test Loss:0.023,            AVG Training Acc 99.07, AVG Test Acc 99.23
+Fold: 2
+Epoch:1/10 AVG Training Loss:0.858 AVG Test Loss:0.143,            AVG Training Acc 76.22, AVG Test Acc 95.82
+Epoch:2/10 AVG Training Loss:0.160 AVG Test Loss:0.079,            AVG Training Acc 95.33, AVG Test Acc 97.76
+Epoch:3/10 AVG Training Loss:0.102 AVG Test Loss:0.055,            AVG Training Acc 96.98, AVG Test Acc 98.36
+Epoch:4/10 AVG Training Loss:0.066 AVG Test Loss:0.040,            AVG Training Acc 98.06, AVG Test Acc 98.82
+Epoch:5/10 AVG Training Loss:0.063 AVG Test Loss:0.041,            AVG Training Acc 97.98, AVG Test Acc 98.79
+Epoch:6/10 AVG Training Loss:0.038 AVG Test Loss:0.034,            AVG Training Acc 98.84, AVG Test Acc 99.01
+Epoch:7/10 AVG Training Loss:0.042 AVG Test Loss:0.042,            AVG Training Acc 98.72, AVG Test Acc 98.79
+Epoch:8/10 AVG Training Loss:0.037 AVG Test Loss:0.033,            AVG Training Acc 98.79, AVG Test Acc 98.99
+Epoch:9/10 AVG Training Loss:0.046 AVG Test Loss:0.033,            AVG Training Acc 98.53, AVG Test Acc 99.14
+Epoch:10/10 AVG Training Loss:0.024 AVG Test Loss:0.028,            AVG Training Acc 99.24, AVG Test Acc 99.25
+Fold: 3
+Epoch:1/10 AVG Training Loss:0.879 AVG Test Loss:0.188,            AVG Training Acc 75.17, AVG Test Acc 94.82
+Epoch:2/10 AVG Training Loss:0.160 AVG Test Loss:0.075,            AVG Training Acc 95.39, AVG Test Acc 98.08
+Epoch:3/10 AVG Training Loss:0.091 AVG Test Loss:0.056,            AVG Training Acc 97.31, AVG Test Acc 98.47
+Epoch:4/10 AVG Training Loss:0.062 AVG Test Loss:0.045,            AVG Training Acc 98.04, AVG Test Acc 98.88
+Epoch:5/10 AVG Training Loss:0.064 AVG Test Loss:0.045,            AVG Training Acc 98.03, AVG Test Acc 98.69
+Epoch:6/10 AVG Training Loss:0.061 AVG Test Loss:0.043,            AVG Training Acc 98.06, AVG Test Acc 98.74
+Epoch:7/10 AVG Training Loss:0.031 AVG Test Loss:0.036,            AVG Training Acc 99.03, AVG Test Acc 99.08
+Epoch:8/10 AVG Training Loss:0.031 AVG Test Loss:0.045,            AVG Training Acc 98.98, AVG Test Acc 98.78
+Epoch:9/10 AVG Training Loss:0.028 AVG Test Loss:0.033,            AVG Training Acc 99.14, AVG Test Acc 99.22
+Epoch:10/10 AVG Training Loss:0.026 AVG Test Loss:0.039,            AVG Training Acc 99.20, AVG Test Acc 99.02
+Fold: 4
+Epoch:1/10 AVG Training Loss:0.873 AVG Test Loss:0.160,            AVG Training Acc 75.86, AVG Test Acc 95.47
+Epoch:2/10 AVG Training Loss:0.163 AVG Test Loss:0.079,            AVG Training Acc 95.31, AVG Test Acc 97.93
+Epoch:3/10 AVG Training Loss:0.101 AVG Test Loss:0.061,            AVG Training Acc 97.04, AVG Test Acc 98.32
+Epoch:4/10 AVG Training Loss:0.062 AVG Test Loss:0.045,            AVG Training Acc 98.15, AVG Test Acc 98.74
+Epoch:5/10 AVG Training Loss:0.056 AVG Test Loss:0.048,            AVG Training Acc 98.28, AVG Test Acc 98.61
+Epoch:6/10 AVG Training Loss:0.034 AVG Test Loss:0.037,            AVG Training Acc 99.08, AVG Test Acc 98.91
+Epoch:7/10 AVG Training Loss:0.042 AVG Test Loss:0.044,            AVG Training Acc 98.58, AVG Test Acc 98.79
+Epoch:8/10 AVG Training Loss:0.035 AVG Test Loss:0.035,            AVG Training Acc 98.88, AVG Test Acc 99.11
+Epoch:9/10 AVG Training Loss:0.043 AVG Test Loss:0.028,            AVG Training Acc 98.69, AVG Test Acc 99.29
+Epoch:10/10 AVG Training Loss:0.022 AVG Test Loss:0.032,            AVG Training Acc 99.29, AVG Test Acc 99.08
