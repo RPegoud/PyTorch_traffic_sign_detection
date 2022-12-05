@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix, classification_report
+from tqdm.auto import tqdm
 
 def report(model, loader, train_losses, test_losses):
 
@@ -18,7 +19,8 @@ def report(model, loader, train_losses, test_losses):
     X_test = []
     model.eval()
 
-    for inputs, targets in loader:
+    for idx, data in tqdm(enumerate(loader), total=len(loader)):  # iterate over batches
+        inputs, targets = data
         inputs, targets = inputs.to(device), targets.to(device)
         outputs = model(inputs)
         _, predictions = torch.max(outputs, 1)
