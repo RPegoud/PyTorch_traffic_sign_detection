@@ -6,5 +6,5 @@
 * **[DONE]** Add packaging
 * **[DONE]** Add cross-validation: <https://medium.com/dataseries/k-fold-cross-validation-with-pytorch-and-sklearn-d094aa00105f>
 * Pooling then batch norm? <https://stackoverflow.com/questions/42015156/the-order-of-pooling-and-normalization-layer-in-convnet/>
-* [IN PROGRESS] Compare with pretrained, and add early stopping
+* [DONE] Compare with pretrained, and add early stopping
   
