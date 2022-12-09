@@ -1,8 +1,6 @@
 # ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
-## **Predictive Modeling: Final project**
-
-## **GTRSB: Building a traffic sign detection CNN using PyTorch**
+## **GTRSB: Building a traffic sign recognition CNN using PyTorch**
 
 <img src='./images/logo.png' width=700>
 
@@ -10,7 +8,7 @@ This project aims to train a PyTorch model to detect and identify traffic signs.
 
 The images used come from the GTRSB (German Traffic Sign Recognition Benchmark) dataset, available on TorchVision.
 
-The study was carried out in five steps:
+The project was carried out in five steps:
 
 * 1: Data exploration, creation of a simple baseline model (see: ***1_baseline.ipynb***)
 * 2: Creation of a more complex CNN, improving on the baseline (see: ***2_improving_CNN.ipynb***)
@@ -23,9 +21,18 @@ The study was carried out in five steps:
 |  Model | Accuracy (%)  | Macro F1-score (%)| Number of training epochs|Training time per epoch (s)
 |---|---|---|---|---|
 |Baseline| 84|77|10 |17|
-|Second CNN|94|92|10|30|
+|Best CNN|94|92|10|30|
 |**EfficientNet V2_small**|**99**|**98**|**10**|**120**|
 |EfficientNet V2_small early_stopping|97|95|2|120|
+
+## General conclusions
+
+In these notebooks, we obtained up to 99% accuracy and 98% macro F1-score on the task of traffic signs recognition.
+
+Here are some ways to take this project further:
+
+* Use the coordinates features available in the dataset to train a segmentation model
+* Apply segmentation to videos
 
 ### *Dataset Credits :*
 
