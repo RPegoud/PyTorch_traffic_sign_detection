@@ -20,7 +20,7 @@ The project was carried out in five steps:
 
 |  Model | Accuracy (%)  | Macro F1-score (%)| Number of training epochs|Training time per epoch (s)
 |---|---|---|---|---|
-|Baseline| 84|77|10 |17|
+|Baseline| 89|84|10 |17|
 |Best CNN|94|92|10|30|
 |**EfficientNet V2_small**|**99**|**98**|**10**|**120**|
 |EfficientNet V2_small early_stopping|97|95|2|120|
@@ -31,6 +31,7 @@ In these notebooks, we obtained up to 99% accuracy and 98% macro F1-score on the
 
 Here are some ways to take this project further:
 
+* The images are cropped and zoomed on specific traffic signs, a next step could be to collect images from road situations and detect traffic signs when there are some
 * Use the coordinates features available in the dataset to train a segmentation model
 * Apply segmentation to videos
 
